@@ -1,0 +1,163 @@
+body{
+    background-color: #f5f5f5;
+}
+
+#sidebar{
+    background-color: rgb(112, 55, 145);
+    width: 20vw;   
+    height: 100vh;
+    transition: 0.3s;
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding-top: 1vh;
+}
+
+#sidebar p{
+    text-align: center;
+    position: relative;
+    top: 70%;
+}
+
+
+.sidebar-buttons{
+    position: relative;
+    display: block;
+}
+
+.sidebar-buttons button{
+    position: relative;
+    display: flex;
+    display: block;
+    width: 100%;
+    background-color: rgb(138, 71, 177);
+    transition: 0.3s;
+}
+
+.sidebar-buttons button:hover{
+    background-color: rgb(167, 93, 210);
+    cursor: pointer;
+}
+
+.sidebar-buttons button img{
+    position: relative;
+    float: left;
+    min-width: 1.7vw;
+    min-height: 1.7vw;
+    width: 2vw;
+    height: 2vw;
+    line-height: 2vw;
+    padding: 4.5px 5px 0 0;
+    text-align: center;
+}
+
+
+#clientes-div{
+    display: flex;
+    float: right;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    width: 80vw;
+}
+
+#produtos-div{
+    width: 80vw;
+    float: right;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+
+#formulario-cliente{
+    width: 35vw;
+    margin: 0 auto;
+    margin-bottom: 5%;
+}
+
+#formulario-cliente div{
+    width: 100%;
+    display: block;
+    position: relative;
+    left: 50%;  
+    transform: translate(-50%);
+
+}
+
+#formulario-cliente h1{
+    width: fit-content;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#formulario-produto{
+    width: 35vw;
+    margin: 0 auto;
+    margin-bottom: 5%;
+}
+
+#formulario-produto div{
+    width: 100%;
+    display: block;
+    position: relative;
+    left: 50%;  
+    transform: translate(-50%);
+
+}
+
+#formulario-produto h1{
+    width: fit-content;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.container{
+    background-color: #ffffff;
+    width: 40vw;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.808);
+}
+
+select{
+    width: 40%;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+label{
+    margin: 5% 0 0 0;
+    padding-left: 10px;
+    font-size: 1.1em;
+    display: block;
+    width: 100%;
+    position: relative;
+    left: 0;
+}
+
+input
+{
+    width: 90%;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+input[type=submit]
+{
+    margin: 5% 0 5% 3%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+input[type=submit]:hover
+{
+    background-color: rgb(123, 123, 123);
+}
+
