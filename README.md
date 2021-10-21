@@ -1,4 +1,4 @@
-# desafio2HiringCoders
+# Desafio2HiringCoders
 
 Site com funcionalidade de armazenamento de clientes e produtos no localStorage feito por Erik Chagas Rozal para o Desafio #2 do Hiring Coders#2.
 
